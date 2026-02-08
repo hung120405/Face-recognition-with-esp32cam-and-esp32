@@ -4,9 +4,13 @@
 
 🚪AI-Powered Smart Door Access Control System with FreeRTOSThis project features an automated smart door system using Face Recognition (AI), IoT (ESP32), and Real-Time Operating System (FreeRTOS) principles. It is designed to provide secure, non-blocking, and efficient access control.
 
-🌟 Key FeaturesReal-time Face Recognition: Utilizes face_recognition and OpenCV on a Python Server to process video streams from the ESP32-CAM.
+🌟 Key Features
 
-Multitasking with FreeRTOS: Implements Tasks, Queues, and Mutexes on the ESP32 to ensure network stability while controlling hardware.Streamlit Web Dashboard: A user-friendly interface for live video streaming, system status monitoring, and access logging.
+Real-time Face Recognition: Utilizes face_recognition and OpenCV on a Python Server to process video streams from the ESP32-CAM.
+
+Multitasking with FreeRTOS: Implements Tasks, Queues, and Mutexes on the ESP32 to ensure network stability while controlling hardware.
+
+Streamlit Web Dashboard: A user-friendly interface for live video streaming, system status monitoring, and access logging.
 
 Dual-Core Processing: Specifically pins heavy hardware tasks to Core 1 to keep the network stack responsive.
 
